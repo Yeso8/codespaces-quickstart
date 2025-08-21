@@ -1,0 +1,14 @@
+version: "3.1"
+
+nlu:
+- intent: affirm
+  examples: |
+    - yes
+    - si
+    - ci
+    - zi
+    - di
+    - en efecto
+    - por supuesto
+    - eso suena bien
+    - correcto

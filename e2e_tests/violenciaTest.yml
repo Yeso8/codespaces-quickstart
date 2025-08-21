@@ -1,0 +1,7 @@
+test_cases:
+  - test_case: el usuario pregunta por la violencia.
+    steps:
+      - user: quiero saber sobre la ciolencia
+      - utter: utter_ask_violencia
+      - user: affirm
+      - utter: utter_ask_tipo_violencia

@@ -1,0 +1,15 @@
+flows:
+  transfer_money:
+    description: Help users send money to friends and family.
+    steps:
+      - collect: recipient
+      - collect: amount
+        description: the number of US dollars to send
+      - action: utter_transfer_complete
+
+  violencia_intra:
+    description: ayuda a identificar el tipo de violencia.
+    steps:
+      - action: utter_ask_violencia
+      - action: utter_ask_tipo_violencia
+      
